@@ -1,0 +1,165 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;	
+}
+.bk {
+	position: absolute;
+	width: 1500;
+	height: 700;
+	background: url('../e03-2.jpg') no-repeat;
+	opacity: .0;
+}
+.m	{
+	box-sizing: content-box;
+	border: 9px solid rgb(244, 244, 244);
+	width: 396px;
+	height: 580px;
+}
+.m-hd {
+	height: 61px;
+	padding: 16px 0px 0px 20px;
+	text-align: center;
+}
+.m-hd>li {
+	float: left;
+	padding: 0px 21px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.m-hd>li>label {
+	display: block;
+	color: #dd0000;
+}
+.m-mes {
+	box-sizing: content-box;
+	width: 396.5px;
+	height: 36px;
+	background: #ffe5de;
+}
+.m-mes>li {
+	float: left;
+	padding: 7px 0px 0px 112px;	
+}
+.m-mes>li>span {
+	font-weight: bolder;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	color: #e26354;
+}
+.m-mes>div {
+	float: right;
+	border: 8px solid #ffe5de;
+	border-left-color: #f8430e;
+	margin: 11px 67px 0px 0px;
+}
+.menu {
+	box-sizing: border-box;
+	height: 41px;
+	padding: 22px 32px;
+	font-weight: bold;
+}
+.menu-item+.menu-item {
+	margin-left: 36.5px;
+}
+.i1 {
+	margin: 3px 179px 3px 173px;
+	border-top: 3.5px solid #ff0000;
+}
+.message1 {
+	padding: 16px 0px 0px 16px;
+	color: #fa8751;
+	font-weight: bolder;
+	letter-spacing: -0.94px;
+	font-size: 17px;
+}
+.m1-item+.m1-item {
+	margin-left: 39.5px;
+}
+.message2 {
+	padding: 12px 0px 23px 16px;
+	letter-spacing: 0.2px;
+	font-weight: bolder;
+}
+.m2-item+.m2-item {
+	margin-left: 59px;
+}
+.picture {
+	height: 102px;
+}
+.picture>li {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	width: 97.5px;
+	height: 102.5px;
+	text-align: center;
+}
+.p1 {
+	margin: 12px 0px 7px 14px;
+	width: 66;
+	height: 42;
+	background: url('../image/充话费.png') no-repeat;
+}
+.p2 {
+	margin: 14px 0px 5px 20px;
+	width: 66;
+	height: 43;
+	background: url('../image/旅行.png') no-repeat;
+}
+.p3 {
+	margin: 12px 0px 7px 24px;
+	width: 66;
+	height: 43;
+	background: url('../image/车险.png') no-repeat;
+}
+.p4 {
+	margin: 14px 0px 5px 22px;
+	width: 66;
+	height: 43;
+	background: url('../image/游戏.png') no-repeat;
+}
+.b1 {
+	border: 2px solid #ff0000;
+	border-bottom-color: #ffffff;
+}
+.b2 {
+	border-bottom: 2px solid #ff0000;
+}
+.l {
+	height: 213px;
+	border: 2px solid #ff0000;
+	border-top-color: #ffffff;
+	font-weight: bold;
+}
+.l-menu {
+	box-sizing: border-box;
+	height: 47px;
+	padding: 14px 0 0 35px;
+	color: #808080;
+}
+.l-menu-item+.l-menu-item {
+	margin: 15px;
+}
+.b3 {
+	box-sizing: border-box;
+	border: 1px solid #808080;
+	margin: 0px 112px 0px 20px;
+	height: 35px;
+	padding: 7px;
+}
+.i2 {
+	padding: 10px 0px 7.5px 24px;
+}
+.i3 {
+	box-sizing: border-box;
+	width: 93px;
+	height: 38px;
+	margin-left: 20px;
+	padding-top: 9px;
+	background-color: #fd471f;
+	color: #ffffff;
+	text-align: center;
+}
